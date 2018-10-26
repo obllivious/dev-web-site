@@ -62,139 +62,6 @@ Overflow - Caixa de texto com rolagem.
 			z-index: 1;
 		}
 
-		.pesquisa {
-			position: relative;
-			width: 520px;
-			height: 25px;
-			float: right;
-			margin-top: 68px;
-			margin-right: 161px;
-		}
-
-		#texto {
-			position: relative;
-			width: 402px;
-			height: 25px;
-			margin-left: 86px;
-			font-family: 'Fonte p';
-			font-size: 12px;
-		}
-
-		#texto:focus {
-			border: solid 1px #03a9f4;
-			padding: 5px;
-		}
-
-		#texto:valid {
-			padding: 5px;
-		}
-
-		.btn {
-			position: absolute;
-			width: 35px;
-			height: 25px;
-			background-color: #6e7a80;
-			padding: 5px 10px;
-			margin-left: 5px;
-			border: 1px solid #c4c6c7;
-			cursor: pointer;
-			float: right;
-		}
-
-		.btn:hover {
-			background-color: #4d4f50;
-		}
-
-		.box {
-			position: absolute;
-			top: 300px;
-			right: 25px;
-			transform: translate(-50%, -50%);
-			width: 250px;
-			height: 330px;
-			padding: 40px;
-			background: rgba(0, 0, 0, 0.5);
-			box-sizing: border-box;
-			box-shadow: 0 25px 25px rgba(0, 0, 0, 0.8);
-			border-radius: 3px;
-		}
-
-		.box h2 {
-			font-size: 12px;
-			margin: 0 0 50px;
-			padding: 5px;
-			color: rgb(63, 109, 235);
-			text-align: center;
-		}
-
-		.box p {
-			font-size: 9px;
-			margin-top: 2px;
-			color: rgb(175, 167, 167);
-			text-align: center
-			;
-		}
-
-		.box p a {
-			color: rgb(175, 167, 167);
-			text-decoration: none;
-		}
-
-		.box p a:hover {
-			color: #03a9f4;
-		}
-
-		.box .inputBox {
-			position: relative;
-			margin-top: 5px;
-		}
-
-		.box .inputBox input {
-			width: 100%;
-			padding: 5px 0;
-			font-size: 12px;
-			color: #fff;
-			margin-bottom: 20px;
-			border: none;
-			border-bottom: 1px solid #5a5858;
-			outline: none;
-			background: transparent;
-		}
-
-		.box .inputBox label {
-			position: absolute;
-			top: 0;
-			left: 0;
-			padding: 5px 0;
-			font-size: 12px;
-			color: #fff;
-			pointer-events: none;
-			transition: .5s;
-		}
-
-		.box .inputBox input:focus ~label,
-		.box .inputBox input:valid ~label {
-			top: -17px;
-			left: 0;
-			color: #03a9f4;
-			font-size: 10px;
-		}
-
-		.box input[type = "submit"] {
-			background: transparent;
-			border: none;
-			outline: none;
-			font-size: 12px;
-			color: #fff;
-			background: #03a9f4;
-			margin-top: 10px;
-			margin-bottom: 30px;
-			margin-left: 50px;
-			padding: 5px 15px;
-			cursor: pointer;
-			border-radius: 1px; 
-		}
-
 		#container {
 			width: 100%;
 			height: 100%;
@@ -222,7 +89,7 @@ Overflow - Caixa de texto com rolagem.
 			font-size: 12px;
 			position: absolute;
 			top: 30px;
-			margin-left: 300px;
+			margin-left: 77px;
 			text-align: center;
 		}
 		
@@ -252,7 +119,7 @@ Overflow - Caixa de texto com rolagem.
 		}
 		
 		nav#menu ul li a:hover {
-			background-color: #033faf;
+			background-color: #6c9af0;
 			font-family: 'Fonte p';
 			color: #ffffff;
 		}
@@ -559,249 +426,51 @@ Overflow - Caixa de texto com rolagem.
 
 	/* body / aside-lat / sec-prim / sec-seg */
 
-	#globo {
-		margin-top: 40px;
-		margin-left: 90px;
-		padding-bottom: 120px;
-		float: left;
-		}
-	
-	/* globo */
-
-	#seta {
-		margin-top: 160px;
-		margin-right: 90px;
-		float: right;
-		}
-	
-	/* seta */
-
-	#arvores {
-		width: 100%;
-		height: 100%;
-		margin-bottom: -4px;
-		padding-top: 0px;
-		}
-
-	/* arvores */
-
 	footer {
-		width: 100%;
-		height: 315px;
-		background:rgb(77, 164, 214);
+		width: auto;
+		height: 200px;
+		background:#c4c6c7;
 		}
 	
-		footer#container-rodape1 {
-			width: 200px;
-			height: 315px;
-			background:rgb(77, 164, 214);
-			}
+	footer#container-rodape1 {
+		width: auto;
+		height: 200px;
+		padding-right: 70px;
+		background:#c4c6c7;
+		float: left;
+	}
 
-			footer#container-rodape1 {
-				width: 200px;
-				height: 315px;
-				padding-right: 70px;
-				background:rgb(77, 164, 214);
-				float: left;
-				}
+	footer#menu {
+		width: auto;
+		height: 200px;
+		background:rgb(76, 110, 129);
+		padding-left: 20px;
+		float: left;	
+		font-size: 10px;	
+	}
 
-				footer#about h4 {
-					font-family: 'Fonte h1';
-					color: rgb(255, 253, 253);
-					font-size: 14px;
-					padding-top: 20px;
-					padding-bottom: 5px;
-					padding-left: 0px;
-				}
+	footer#responsive-text {
+		width: auto;
+		height: 60px;
+		padding-top: 93px;
+		padding-left:433px;
+		background: rgb(255, 255, 255);
+		color: rgb(31, 18, 92);
+	}
 
-				footer#about h5 {
-					font-family: 'Fonte h1';
-					color: #CCC;
-					font-size: 10px;
-				}
-
-				footer#about p {
-					font-family: 'Fonte h1';
-					color: #CCC;
-					font-size: 10px;
-				}
-
-			/* footer#about */
-
-			footer#menu {
-				width: 150px;
-				height: 315px;
-				background:rgb(76, 110, 129);
-				padding-left: 20px;
-				float: left;	
-				font-size: 10px;	
-				}
-		
-				footer#menu h4 {
-					font-family: 'Fonte h1';
-					color: rgb(0, 0, 0);
-					font-size: 14px;
-					padding-top: 20px;
-					padding-bottom: 5px;
-					padding-left: 0px;	
-				}
-		
-				footer#menu h5 {
-					font-family:'Fonte h1';
-					color:#FFF;
-					font-size:10px;
-					padding-top:0px;
-					padding-left:0px;	
-				}
-		
-				footer#menu h5 a {
-					color: rgb(0, 0, 0);
-				}
-			
-				footer#menu h5 a:hover {
-					color: rgb(255, 255, 255);
-				}
-		
-			/* footer#menu */
-		
-			footer#tags {
-				width: 80px;
-				height: 315px;
-				background:rgb(76, 110, 129);
-				float: left;
-				padding-right: 80px;	
-				}
-			
-				footer#tags h4 {
-					font-family:'Fonte h1';
-					color:rgb(0, 0, 0);
-					font-size:14px;
-					padding-top:20px;
-					padding-bottom:5px;
-					padding-left:0px;	
-				}
-			
-				footer#tags h5 {
-					font-family:'Fonte h1';
-					color: rgb(0, 0, 0);
-					font-size:10px;
-					padding-top:0px;
-					padding-left:0px;	
-				}
-			
-				footer#tags h5 a {
-					color: rgb(0, 0, 0);
-				}
-			
-				footer#tags h5 a:hover {
-					color: rgb(172, 172, 172);
-				}
-			
-			/* footer#tags */
-		
-			footer#news {
-				width:220px;
-				height:120px;
-				background:rgb(76, 110, 129);
-				float:left;
-				}
-		
-				footer#news h4 {
-					font-family:'Fonte h1';
-					color:rgb(0, 0, 0);
-					font-size:14px;
-					text-align:left;
-					padding-top:20px;
-					padding-bottom:5px;	
-				}
-			
-				footer#news h5 {
-					font-family:'Fonte h1';
-					color: rgb(0, 0, 0);
-					text-align:left;
-					font-size:10px;
-					padding-top:0px;
-					padding-left:0px;	
-				}
-			
-				footer#news h5 a {
-					color: rgb(0, 0, 0);
-				}
-			
-				footer#news h5 a:hover {
-					color: rgb(172, 172, 172);
-				}
-		
-			/* footer#news */
-
-		/* footer#container-rodape1 */
-
-		footer#container-rodape2 {
-			width: 100%;
-			height:180px;
-			padding-top: 0px;
-			background: rgb(255, 255, 255);
-			}
-
-			footer#imagem-responsive {
-				width:auto;
-				height: 65px;
-				float:left;
-				margin-top:14px;
-				background: rgb(255, 255, 255);
-				color: #FFF;
-			}
-
-			footer#imagem-redes {
-				float: left;
-				margin-left: 37px;
-				margin-top: 40px;
-			}
-
-			footer#responsive-text {
-				width: auto;
-				height: 160px;
-				padding-top: 93px;
-				padding-left:433px;
-				background: rgb(255, 255, 255);
-				color: rgb(31, 18, 92);
-			}
-
-			footer#responsive-text h5 {
-				width:100%;
-				font-family:'Fonte h1';
-				color:#000;
-				font-size:10px;
-				text-align:left;
-			}
-
-			footer#responsive-text h5 a{
-				color: rgb(0, 0, 0);
-				font-weight: bold;
-			}
-
-			footer#responsive-text h5 a:hover{
-				color: rgb(58, 113, 233);
-				font-weight: bold;
-			}
-
-			footer#direitos {
-				width: 100%;
-				height: 18px;
-				font-family: 'Fonte p';
-				color: rgb(130, 132, 133);
-				font-size: 10px;
-				line-height: 18px;
-				text-align: center;
-				margin-top: 22px;
-				border-top: solid 1px rgb(130, 132, 133);
-				border-right: solid 1px rgb(130, 132, 133);
-				border-bottom: solid 1px rgb(130, 132, 133);
-				border-left: solid 1px rgb(130, 132, 133);
-			}
-
-		/* footer#container-rodape2 */
-
-	/* footer */
+	footer#direitos {
+		width: auto;
+		height: 18px;
+		font-family: 'Fonte p';
+		color: rgb(130, 132, 133);
+		font-size: 10px;
+		line-height: 18px;
+		text-align: center;
+		margin-top: 22px;
+		border-top: solid 1px rgb(130, 132, 133);
+		border-right: solid 1px rgb(130, 132, 133);
+		border-bottom: solid 1px rgb(130, 132, 133);
+		border-left: solid 1px rgb(130, 132, 133);
+	}
 
 } /* @media screen and (min-width: 981px) */
