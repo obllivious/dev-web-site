@@ -426,51 +426,34 @@ Overflow - Caixa de texto com rolagem.
 
 	/* body / aside-lat / sec-prim / sec-seg */
 
-	footer {
-		width: auto;
-		height: 200px;
-		background:#c4c6c7;
-		}
-	
-	footer#container-rodape1 {
-		width: auto;
-		height: 200px;
-		padding-right: 70px;
-		background:#c4c6c7;
+	footer#container {
+		width: 100%;
+		height: 150px;
+		background:#FFFFFF;
+		padding-top: 7px;
+		padding-left: 90px;
 		float: left;
 	}
 
-	footer#menu {
-		width: auto;
-		height: 200px;
-		background:rgb(76, 110, 129);
-		padding-left: 20px;
-		float: left;	
-		font-size: 10px;	
-	}
-
-	footer#responsive-text {
-		width: auto;
-		height: 60px;
-		padding-top: 93px;
-		padding-left:433px;
-		background: rgb(255, 255, 255);
-		color: rgb(31, 18, 92);
-	}
-
-	footer#direitos {
-		width: auto;
-		height: 18px;
+	#menu ul a {
+		color: #1c2741;
+		text-decoration: none;
 		font-family: 'Fonte p';
-		color: rgb(130, 132, 133);
-		font-size: 10px;
-		line-height: 18px;
-		text-align: center;
-		margin-top: 22px;
-		border-top: solid 1px rgb(130, 132, 133);
-		border-right: solid 1px rgb(130, 132, 133);
-		border-bottom: solid 1px rgb(130, 132, 133);
-		border-left: solid 1px rgb(130, 132, 133);
+		padding: 10px;
+		display: inline-block;
+		margin-right: -3px;
+	}
+
+	#menu ul a:hover {
+		color: #73a0f5;
+		text-decoration: none;
+	}
+
+	#direitos {
+		font-size: 12px;
+		color: #5a5858;
+		float: right;
+		padding-right: 90px;
 	}
 
 } /* @media screen and (min-width: 981px) */
