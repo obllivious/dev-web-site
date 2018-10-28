@@ -42,21 +42,20 @@ Overflow - Caixa de texto com rolagem.
     	src: url("../_fonts/Lato/Lato-Regular.ttf");
 }
 
-
-
 /* ------- RESOLUÇÃO MÍNIMA 981PX (PC) ------- */
 
 @media screen and (min-width: 981px) {
 
-	header {
-		box-shadow: 30px 30px 30px #999;
-		width: 100%;
-		height: 600px;
+	/* header */
+
+		header {
+			width: 100%;
+			height: 600px;
 		}
 
 		#logo {
 			margin-top: 35px;
-			margin-left: 100px;
+			margin-left: 120px;
 			float: left;
 			position: fixed;
 			z-index: 1;
@@ -67,13 +66,11 @@ Overflow - Caixa de texto com rolagem.
 			height: 100%;
 			margin-left: auto;
 			margin-right: auto;
-			padding-top: 0px;
 		}
 		
 		#container-menu {
 			width: 100%;
 			height: auto;
-			float: right;
 		}
 
 		nav#menu {
@@ -89,25 +86,11 @@ Overflow - Caixa de texto com rolagem.
 			font-size: 12px;
 			position: absolute;
 			top: 30px;
-			margin-left: 77px;
-			text-align: center;
 		}
 		
 		nav#menu ul li {
 			list-style-type: none;
 			display: inline;
-			
-			background-color: background-image -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
-			background-image: -webkit-linear-gradient(top, start-color, end-color);
-			background-image: -moz-linear-gradient(top, start-color, end-color);
-			background-image: linear-gradient(to bottom, start-color, end-color);
-			transition: background-color 1s;
-			
-			/* Transições com outros navegadores */
-			-webkit-transition: background-color 1s;
-			-moz-transition: background-color 1s;
-			-o-transition: background-color 1s;
-			-ms-transition: background-color 1s;
 		}
 		
 		nav#menu ul li a {
@@ -115,50 +98,169 @@ Overflow - Caixa de texto com rolagem.
 			text-decoration: none;
 			padding: 10px 13px;
 			display: inline-block;
-			margin-right: -3px;
 		}
 		
 		nav#menu ul li a:hover {
-			background-color: #6c9af0;
+			background-color: #0f3170;
 			font-family: 'Fonte p';
 			color: #ffffff;
+			
 		}
 	
 	/* header */
 
-	body {
-		width: 1349px;
-		margin: auto;
-		}
+	/* body */
 
-		aside#lateral {
-			position: relative;
-			background-color: #ffffff;
-			width: 400px;
-			float: right;
-			margin-top: 50px;
-			margin-right: 80px;
-			}
+		body {
+			width: 100%;
+			margin-left: auto;
+		}
 	
-			aside#lateral input {
-				width: 270px;
-				height: 25px;
-				margin-top: 3px;
-				margin-bottom: 30px;
-				margin-left: 11px;
-			}
+		/* section */
 	
-			aside#lateral button {
-				width: 100px;
-				height: 25px;
+			section#principal {
+				width: 52%;
+				height: auto;
+				padding-top:77px;
+				margin-left: 120px;
+				float: left;
+			}
+
+			section#principal h1 {
+				font-family: 'Fonte h1';
+				font-size: 22px;
+				color: #333;
+				padding-left:7px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				text-decoration: none;
+				font-weight: bold;
+				border-left-width: thin;	
+				border-left-style: solid;	
+				border-left-color: #999;
+			}
+
+			section#principal h2 {
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
+				font-size:16px;
+				font-weight: bold;
+			}
+
+			section#principal h3 {
+				font-family: 'Fonte h1';
+				color: rgb(17, 98, 219);
+				font-size:18px;
+				font-weight: bold;
+			}
+
+			section#principal p {
+				width: 100%;
+				font-family: 'Fonte p';   
+				font-size: 14px;
+				color:#000;
+				text-align:left;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			section#principal ul li {
+				width: 100%;
+				font-family: 'Fonte h1';
+				color: #000;
+				font-size:14px;
+			}
+			
+			figure.foto-legenda {
+				position: relative;
+				width: 100%;
+				height: auto;
+				padding-top: 35px;
+				padding-bottom: 15px;
+			}
+			
+			figure.foto-legenda img {
+				width: 100%;
+				height: 330px;
+			}
+			
+			figure.foto-legenda figcaption {
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				position: absolute;
+				top: 0px;
+			}
+			
+			figure.foto-legenda:hover figcaption {
+				opacity: 0.8;
+			}
+			
+			figure.foto-legenda h3 {
+				font-family: 'Fonte h1';
+				text-align: left;
+				padding-left: 30px;
+				margin-top: 250px;
+				color: rgb(255, 255, 255);
+			}
+			
+			figure.foto-legenda p {
+				font-family: 'Fonte p';
+				font-size: 9px;
+				text-align: left;
+				margin-top: 50px;
+				padding-right: 30px;
+				padding-left: 30px;
+				color: rgb(255, 255, 255);
+			}
+
+			figure.foto-legenda a {
+				text-decoration: none;
+				color: #29437a;
+			}
+
+			figure.foto-legenda a:hover {
+				text-decoration: none;
+				color: #407dee;
+			}
+
+			video#filme-sectionprincipal {
+				width: 100%;
+				height: 400px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			
+			img#section-principal {
+				width: 100%;
+				height: 330px;
+				margin-top: 25px;
+				margin-bottom: 20px;
+			}
+			
+		/* section */
+
+		/* aside */
+
+			aside#lateral {
+				position: relative;
+				background-color: #ffffff;
+				width: 27%;
+				float: right;
+				margin-top: 100px;
+				margin-right: 100px;
 			}
 	
 			aside#lateral h1 {
-				font-family: 'Fonte p';
-				font-size: 18pt;
-				color: #1c2741;
-				padding-top: 10px;
+				font-family: 'Fonte h1';
+				font-size: 22px;
+				color: #333;
 				padding-left: 11px;
+				margin-top: 7px;
+				text-decoration: none;
+				font-weight: bold;
 			}
 
 			aside#lateral h1 a {
@@ -172,38 +274,55 @@ Overflow - Caixa de texto com rolagem.
 			}
 	
 			aside#lateral h2 {
-				font-size: 14pt;
-				color: #5a5858;
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
 				padding-left: 11px;
-				margin-top: 13px;
-				padding-bottom: 3px; 
+				font-size:16px;
+				font-weight: bold;
 			}
 	
 			aside#lateral h3 {
-				font-size: 9pt;
-				color: #5a5858;
+				font-family: 'Fonte h1';
+				color: rgb(0, 0, 0);
+				font-size: 12px;
 				padding-left: 11px;
-				padding-bottom: 20px; 
+			}
+
+			aside#lateral h3 a {
+				font-family: 'Fonte h1';
+				color: rgb(34, 39, 109);
+				font-size: 22px;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			aside#lateral h3 a:hover {
+				color: rgb(45, 57, 224);
+				text-decoration: none;
 			}
 	
 			aside#lateral p {
-				font-family: 'Fonte p';
-				font-size: 10pt;
+				font-family: 'Fonte p';   
+				font-size: 14px;
+				margin-top: 3px;
+				margin-bottom: 3px;
 				color: #5a5858;
 				padding: 11px;
 				text-align: left;
 			}
 			
 			video#filme-aside {
-				width: 400px;
+				width: 100%;
 				height: 280px;
 				padding-left: 10px;
 				padding-right: 10px;
 			}
 
 			aside#lateral iframe {
-				width: 400px;
-				height: 300px;
+				width: 100%;
+				height: 200px;
 				margin-top: 3px;
 				padding-right: 10px;
 				padding-bottom: 20px;
@@ -211,249 +330,59 @@ Overflow - Caixa de texto com rolagem.
 			}
 
 			aside#lateral img {
-				width: 400px;
+				width: 100%;
 				height: 200px;
 				margin-top: 10px;
 				padding-right: 10px;
 				padding-bottom: 7px;
 				padding-left: 10px;
 			}
-	
-		/* aside-lateral */
-	
-		section#primeira {
-			max-width:700px;
-			height: auto;
-			margin-left: 100px;
-			margin-right: auto;
-			padding-top:70px;
-			float: left;
-			}
 
-			section#primeira h1 {
-				font-family: 'Fonte h1';
-				font-size: 22px;
-				color: #333;
-				padding-left:7px;
-				margin-top: 10px;
-				margin-bottom: 30px;
-				text-decoration: none;
-				font-weight: bold;
-				border-left-width: thin;	
-				border-left-style: solid;	
-				border-left-color: #999;
-			}
+		/* aside */
 
-			section#primeira h2 {
-				font-family: 'Fonte h1';
-				color: #000;
-				padding-top: 25px;
-				padding-bottom: 20px;
-				font-size:16px;
-				font-weight: bold;
-			}
-
-			section#primeira h3 {
-				font-family: 'Fonte h1';
-				color: rgb(161, 16, 16);
-				font-size:18px;
-				font-weight: bold;
-			}
-
-			section#primeira p {
-				width: 700px;
-				font-family: 'Fonte p';   
-				font-size: 14px;
-				color:#000;
-				text-align:left;
-				margin-top: 10px;
-				margin-bottom: 10px;
-			}
-
-			section#primeira ul li {
-				width: 700px;
-				font-family: 'Fonte h1';
-				color: #000;
-				font-size:14px;
-			}
-
-		/* section#primeira */
-
-		section#segunda {
-			width:700px;
-			height: auto;
-			margin-left: 100px;
-			margin-right: 100px;
-			}
-			
-			figure.foto-legenda {
-				position: relative;
-				width: 700px;
-				height: auto;
-				padding-top: 25px;
-				padding-bottom: 25px;
-				margin-top: 780px;
-				margin-bottom: 30px;
-			}
-			
-			figure.foto-legenda img {
-				width: 100%;
-				height: auto;
-			}
-			
-			figure.foto-legenda figcaption {
-				width: 100%;
-				height: 100%;
-				opacity: 0;
-				position: absolute;
-				top: 0px;
-				background-color: rgba(238, 238, 238, 0.7);
-				box-sizing: border-box;
-				transition: opacity 1s;
-				border-top: 1px solid rgb(214, 199, 199);
-				border-bottom: 1px solid rgb(214, 199, 199);
-			}
-			
-			figure.foto-legenda:hover figcaption {
-				opacity: 0.8;
-			}
-			
-			figure.foto-legenda figcaption h3 {
-				font-family: 'Fonte h1';
-				text-align: left;
-				padding-left: 30px;
-				margin-top: 250px;
-				color: rgb(0, 0, 0);
-			}
-			
-			figure.foto-legenda p {
-				font-family: 'Fonte p';
-				font-size: 9px;
-				text-align: left;
-				margin-top: 50px;
-				padding-right: 30px;
-				padding-left: 30px;
-				color: rgb(0, 0, 0);
-			}
-
-			figure.foto-legenda a {
-				text-decoration: none;
-				color: #29437a;
-			}
-
-			figure.foto-legenda a:hover {
-				text-decoration: none;
-				color: #407dee;
-			}
-
-			section#segunda h1 {
-				font-family: 'Fonte h1';
-				font-size: 22px;
-				color: #333;
-				padding-left: 7px;
-				margin-top: 30px;
-				margin-bottom: 40px;
-				text-decoration: none;
-				font-weight: bold;
-				border-left-width: thin;
-				border-left-style: solid;
-				border-left-color: #999;
-			}
-			
-			section#segunda h2 {
-				font-family: 'Fonte h1';
-				color: #000;
-				padding-top: 25px;
-				padding-bottom: 20px;
-				font-size: 16px;
-				font-weight: bold;
-			}
-			
-			section#segunda h3 {
-				font-family: 'Fonte h1';
-				color: rgb(0, 0, 0);
-				font-size:18px;
-				font-weight: bold;
-			}
-
-			section#segunda h4 {
-				font-family: 'Fonte h1';
-				font-size: 26px;
-				color: rgb(3, 83, 148);
-				padding-left: 7px;
-				margin-top: 30px;
-				margin-bottom: 40px;
-				text-decoration: none;
-				font-weight: bold;
-				border-left-width: thin;
-				border-left-style: solid;
-				border-left-color: #999;
-			}
-			
-			section#segunda p {
-				width: 700px;
-				font-family: 'Fonte p';   
-				font-size: 14px;
-				color:#000;
-				text-align:left;
-				margin-top: 10px;
-				margin-bottom: 10px;
-			}
-			
-			section#segunda ul li {
-				width: 700px;
-				font-family: 'Fonte h1';
-				color: #000;
-				font-size:14px;
-				margin-left: 18px;
-			}
-
-			video#filme-sectionsegunda {
-				width: 700px;
-				height: 400px;
-				margin-top: 40px;
-				margin-bottom: 20px;
-			}
-			
-			img#section-segunda {
-				width: 700px;
-				height: 330px;
-				margin-top: 40px;
-				margin-bottom: 20px;
-			}
-			
-		/* section#segunda */
-
-	/* body / aside-lat / sec-prim / sec-seg */
+	/* body */
 
 	footer#container {
 		width: 100%;
 		height: 150px;
 		background:#FFFFFF;
 		padding-top: 7px;
-		padding-left: 90px;
+		padding-left: 117px;
+		padding-right: 117px;
 		float: left;
+	}
+
+	#menu {
+		text-decoration: none;
+		font-family: 'Fonte p';
+		font-size: 14px;
+		position: absolute;
+		
 	}
 
 	#menu ul a {
 		color: #1c2741;
 		text-decoration: none;
 		font-family: 'Fonte p';
-		padding: 10px;
+		padding: 7px;
 		display: inline-block;
-		margin-right: -3px;
 	}
 
 	#menu ul a:hover {
-		color: #73a0f5;
+		color: #2060d6;
 		text-decoration: none;
 	}
 
-	#direitos {
-		font-size: 12px;
-		color: #5a5858;
+	#redes {
+		padding-top: 3px;
 		float: right;
-		padding-right: 90px;
+	}
+
+	#direitos {
+		color: #5a5858;
+		font-size: 10px;
+		padding-top: 100px;
+		padding-left: 7px;
 	}
 
 } /* @media screen and (min-width: 981px) */
