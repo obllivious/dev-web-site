@@ -59,4 +59,4 @@ buck-out/
 
 # Fireworks
 
-*.fw.png
+.fw.png
