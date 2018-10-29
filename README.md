@@ -3,4 +3,5 @@ Website created using HTML5, CSS and JavaScript presenting the google glass tech
 Updated README file.<br/>
 Updated files html.<br/>
 Redefined files and updated interface.<br/>
-Updated html files
+Updated html files<br/>
+Updated html files, README and created new files html. 
