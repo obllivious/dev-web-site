@@ -1,5 +1,5 @@
 
-/* Theme name: ...
+/* Theme name: Information Technology
 Theme URI: http://www...
 Description: Tema desenvolvido para ...
 Author: Renato F. Sousa, Obllivious
@@ -7,29 +7,21 @@ Version: 1.0
 License: Privada
 Tags: ... */
 
-/* ------------------- LEMBRETES -------------------
-
-RECURSOS 
+/* LEMBRETES
 
 Font-size: 12px;
 Font-size: 100%;
 Font-size: 1.5em;
-
 Color: rgba(255, 128, 0, 0.5)
 Box-shadow: 10px 10px 5px #999;
-
 Background-position: Left top, center bottom...
-After - 
 Clear - Limpar o posicionamento da div. 
 Z-index - Posicionamento de imagem.
 Clip (Máscara) Efeitos e animação.
 Overflow - Caixa de texto com rolagem.
+-------------------------------------- */
 
-------------------------------------------------- */
-
-
-
-/* ------- FONTE ------- */
+/* FONTE */
 
 @charset "UTF-8";
 	@font-face {
@@ -42,9 +34,9 @@ Overflow - Caixa de texto com rolagem.
     	src: url("../_fonts/Lato/Lato-Regular.ttf");
 }
 
-/* ------- RESOLUÇÃO MÍNIMA 981PX (PC) ------- */
+/* ------- RESOLUÇÃO MÍNIMA 900PX ------- */
 
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 900px) {
 
 	/* header */
 
@@ -85,7 +77,8 @@ Overflow - Caixa de texto com rolagem.
 			width: 100%;
 			height: 100%;
 			text-transform: uppercase;
-			font-size: 14px;
+			font-size: 13px;
+			font-weight: bold;
 			top: 33px;
 			font-family: 'Fonte p';
 			position: absolute;
@@ -94,7 +87,7 @@ Overflow - Caixa de texto com rolagem.
 		nav#menu ul li {
 			list-style-type: none;
 			float: right;
-			padding-right: 44px;
+			padding-right: 20px;
 		}
 		
 		nav#menu ul li a {
@@ -104,7 +97,8 @@ Overflow - Caixa de texto com rolagem.
 		
 		nav#menu ul li a:hover {
 			background-color: rgb(4, 26, 51);
-			color: #ffffff;
+			font-weight: bold;
+			color: rgb(86, 187, 226);
 		}
 	
 	/* header */
@@ -365,57 +359,445 @@ Overflow - Caixa de texto com rolagem.
 
 	/* body */
 
-	footer#container {
-		width: 100%;
-		height: 100%;
-		background:#FFFFFF;
-		padding-top: 33px;
-		padding-left: 117px;
-		padding-right: 117px;
-		float: left;
-	}
+	/* footer */
 
-	#menu {
-		text-decoration: none;
-		font-family: 'Fonte p';
-		font-size: 14px;
-		position: relative;
-		float: right;
-		padding-top: 3px;	
-	}
+		footer#container {
+			width: 100%;
+			height: 100%;
+			background:#FFFFFF;
+			padding-top: 33px;
+			padding-left: 117px;
+			padding-right: 117px;
+			float: left;
+		}
 
-	#menu ul a {
-		color: #1c2741;
-		text-decoration: none;
-		font-family: 'Fonte p';
-		padding: 7px;
-		display: inline-block;
-	}
+		#menu {
+			text-decoration: none;
+			font-family: 'Fonte p';
+			font-size: 14px;
+			position: relative;
+			float: right;
+			padding-top: 3px;
+		}
 
-	#menu ul a:hover {
-		color: #1664f5;
-		text-decoration: none;
-	}
+		#menu ul a {
+			color: #1c2741;
+			text-decoration: none;
+			font-family: 'Fonte p';
+			padding: 7px;
+			display: inline-block;
+		}
 
-	#redes {
-		padding-top: 7px;
-		position: absolute;
-	}
+		#menu ul a:hover {
+			text-decoration: none;
+			color: rgb(86, 187, 226);
+		}
 
-	#seta {
-		padding-top: 77px;
-		position: relative;
-		padding-bottom: 7px;
-		float: right;
-	}
+		#redes {
+			padding-top: 7px;
+			position: absolute;
+		}
 
-	#direitos {
-		width: auto;
-		height: auto;
-		color: #5a5858;
-		font-size: 10px;
-		margin-left: 8px;
-		margin-top: 87px;
-	}
+		#seta {
+			padding-top: 77px;
+			position: relative;
+			padding-bottom: 7px;
+			float: right;
+		}
 
-} /* @media screen and (min-width: 981px) */
+		#direitos {
+			width: auto;
+			height: auto;
+			color: #5a5858;
+			font-size: 10px;
+			margin-left: 8px;
+			margin-top: 87px;
+		}
+	
+	/* footer */
+
+} 
+
+/* ------- RESOLUÇÃO MÁXIMA 899px ------- */
+
+@media screen and (max-width: 899px) {
+
+	/* header */
+
+		header {
+			width: 100%;
+			height: 100%;
+			padding-bottom: 477px;
+		}
+
+		#logo {
+			width: 50%;
+			height: 50%;
+			float: left;
+			padding-left: 30px;
+			padding-top: 37px;
+			position: fixed;
+			z-index: 1;
+		}
+
+		#container {
+			width: 36%;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			float: right;
+			padding-right: 111px;
+			padding: 30px;
+		}
+		
+		#container-menu {
+			width: 100%;
+			height: 100%;
+		}
+
+		nav#menu {
+			width: 100%;
+			height: 100%;
+		}
+		
+		nav#menu ul {
+			width: 100%;
+			height: 100%;
+			text-transform: uppercase;
+			font-size: 11px;
+			font-weight: bold;
+			top: 3px;
+			font-family: 'Fonte p';
+			position: absolute;
+		}
+		
+		nav#menu ul li {
+			list-style-type: none;
+			display: block;
+			float: right;
+			padding: 5px;
+		}
+		
+		nav#menu ul li a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		
+		nav#menu ul li a:hover {
+			background-color: rgb(4, 26, 51);
+			font-weight: bold;
+			color: rgb(86, 187, 226);
+		}
+
+	/* header */
+
+	/* body */
+
+		body {
+			width: 100%;
+			margin-left: auto;
+		}
+
+		/* section */
+
+			section#principal {
+				width: 100%;
+				height: 100%;
+				padding-top: 77px;
+				padding-right: 33px;
+				padding-left: 33px;
+			}
+
+			section#principal h1 {
+				font-family: 'Fonte h1';
+				font-size: 20px;
+				color: #333;
+				padding-left:7px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				text-decoration: none;
+				font-weight: bold;
+				border-left-width: thin;	
+				border-left-style: solid;	
+				border-left-color: #999;
+			}
+
+			section#principal h2 {
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
+				font-size:14px;
+				font-weight: bold;
+			}
+
+			section#principal h3 {
+				font-family: 'Fonte h1';
+				color: rgb(0, 0, 0);
+				font-size:16px;
+				font-weight: bold;
+			}
+
+			section#principal p {
+				width: 100%;
+				font-family: 'Fonte p';   
+				font-size: 13px;
+				color:#000;
+				text-align:left;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			section#principal li {
+				width: 100%;
+				font-family: 'Fonte p';
+				color: #000;
+				font-size:13px;
+			}
+			
+			figure.foto-legenda {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				padding-top: 35px;
+				padding-bottom: 15px;
+			}
+			
+			figure.foto-legenda img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			figure.foto-legenda figcaption {
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				position: absolute;
+				top: 0px;
+			}
+			
+			figure.foto-legenda:hover figcaption {
+				opacity: 0.8;
+			}
+			
+			figure.foto-legenda h3 {
+				font-family: 'Fonte h1';
+				color: rgb(255, 255, 255);
+				text-align: left;
+				padding-left: 30px;
+				margin-top: 35%;
+			}
+			
+			figure.foto-legenda p {
+				font-family: 'Fonte p';
+				font-size: 9px;
+				text-align: left;
+				margin-top: 50px;
+				padding-right: 30px;
+				padding-left: 30px;
+				color: rgb(255, 255, 255);
+			}
+
+			figure.foto-legenda a {
+				text-decoration: none;
+				color: #29437a;
+			}
+
+			figure.foto-legenda a:hover {
+				text-decoration: none;
+				color: #407dee;
+			}
+
+			video#filme-sectionprincipal {
+				width: 100%;
+				height: 100%;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			
+			img#section-principal {
+				width: 100%;
+				height: 330px;
+				margin-top: 25px;
+				margin-bottom: 20px;
+			}
+			
+		/* section */
+
+		/* aside */
+
+			#github {
+				width: 17%;
+				height: 17%;
+				position: relative;
+				float: right;
+				bottom: 123px;
+				right: 33px;
+			}
+
+			aside#lateral {
+				background-color: #ffffff;
+				width: 100%;
+				margin-top: 33px;
+				padding-right: 33px;
+				padding-left: 33px;
+			}
+
+			aside#lateral h1 {
+				font-family: 'Fonte h1';
+				font-size: 20px;
+				color: #333;
+				margin-top: 7px;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+			aside#lateral h1 a {
+				text-decoration: none;
+				color: #29437a;
+			}
+
+			aside#lateral h1 a:hover {
+				text-decoration: none;
+				color: #407dee;
+			}
+
+			aside#lateral h2 {
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+
+			aside#lateral h3 {
+				font-family: 'Fonte h1';
+				color: rgb(0, 0, 0);
+				font-size: 12px;
+			}
+
+			aside#lateral h3 a {
+				font-family: 'Fonte h1';
+				color: rgb(34, 39, 109);
+				font-size: 20px;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			aside#lateral h3 a:hover {
+				color: rgb(45, 57, 224);
+				text-decoration: none;
+			}
+
+			aside#lateral p {
+				font-family: 'Fonte p';   
+				font-size: 13px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				color: #5a5858;
+				text-align: left;
+			}
+			
+			video#filme-aside {
+				width: 100%;
+				height: 100%;
+			}
+
+			aside#lateral iframe {
+				width: 100%;
+				height: 100%;
+				margin-top: 3px;
+				padding-bottom: 20px;
+			}
+
+			aside#lateral img {
+				width: 100%;
+				height: 100%;
+				margin-top: 10px;
+				padding-bottom: 7px;
+			}
+
+			#padding {
+				width: 100%;
+				height: 100%;
+				padding-bottom: 33px;
+			}
+
+			#linkedin {
+				width: 17%;
+				height: 17%;
+				position: relative;
+				float: right;
+				top: auto;
+				right: 33px;
+			}
+
+		/* aside */
+
+	/* body */
+
+	/* footer */
+
+		footer#container {
+			width: 100%;
+			height: 50%;
+			padding-top: 22px;
+			padding-left: 33px;
+			padding-right: 33px;
+		}
+
+		#menu {
+			width: 100%;
+			height: 100%;
+			text-decoration: none;
+			font-family: 'Fonte p';
+			font-size: 11px;
+			position: relative;
+			padding-top: 7px;
+		}
+
+		#menu ul a {
+			color: #1c2741;
+			text-decoration: none;
+			font-family: 'Fonte p';
+			padding: 3px;
+			display: inline-block;
+		}
+
+		#menu ul a:hover {
+			text-decoration: none;
+			color: rgb(30, 134, 175);
+		}
+
+		#redes {
+			width: 50%;
+			height: auto;
+			padding-top: 40px;
+			padding-bottom: 0px;
+		}
+
+		#redes p {
+			font-family: 'Fonte p';
+			font-size: 13px;
+			color: rgb(30, 134, 175);
+			padding-left: 5px;
+		}
+
+		#seta {
+			position: relative;
+			padding-top: 7px;
+			float: right;
+		}
+
+		#direitos {
+			width: auto;
+			height: auto;
+			color: #5a5858;
+			font-size: 10px;
+			float: right;
+		}
+
+	/* footer */
+
+}
