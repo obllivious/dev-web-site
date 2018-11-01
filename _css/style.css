@@ -34,9 +34,15 @@ Overflow - Caixa de texto com rolagem.
     	src: url("../_fonts/Lato/Lato-Regular.ttf");
 }
 
-/* ------- RESOLUÇÃO MÍNIMA 900PX ------- */
 
-@media screen and (min-width: 900px) {
+
+
+
+
+
+/* ------- MIN RESOLUTION 1300px ------- */
+
+@media all and (min-width: 1300px) {
 
 	/* header */
 
@@ -50,8 +56,8 @@ Overflow - Caixa de texto com rolagem.
 			width: 50px;
 			height: 50px;
 			float: left;
-			padding-left: 119px;
-			padding-top: 44px;
+			padding-left: 4.7%;
+			padding-top: 4.7%;
 			position: fixed;
 			z-index: 1;
 		}
@@ -113,7 +119,7 @@ Overflow - Caixa de texto com rolagem.
 		/* section */
 	
 			section#principal {
-				width: 52%;
+				width: 57%;
 				height: auto;
 				padding-top:77px;
 				margin-left: 120px;
@@ -244,7 +250,7 @@ Overflow - Caixa de texto com rolagem.
 				position: relative;
 				float: right;
 				top: 160px;
-				right: 111px;
+				right: 5%;
 			}
 
 			aside#lateral {
@@ -259,7 +265,6 @@ Overflow - Caixa de texto com rolagem.
 				font-family: 'Fonte h1';
 				font-size: 22px;
 				color: #333;
-				padding-left: 11px;
 				margin-top: 7px;
 				text-decoration: none;
 				font-weight: bold;
@@ -280,7 +285,6 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				padding-left: 11px;
 				font-size:16px;
 				font-weight: bold;
 			}
@@ -289,7 +293,6 @@ Overflow - Caixa de texto com rolagem.
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
 				font-size: 12px;
-				padding-left: 11px;
 			}
 
 			aside#lateral h3 a {
@@ -311,33 +314,26 @@ Overflow - Caixa de texto com rolagem.
 				margin-top: 3px;
 				margin-bottom: 3px;
 				color: #5a5858;
-				padding: 11px;
 				text-align: left;
 			}
 			
 			video#filme-aside {
 				width: 100%;
 				height: 100%;
-				padding-left: 10px;
-				padding-right: 10px;
 			}
 
 			aside#lateral iframe {
 				width: 100%;
 				height: 100%;
 				margin-top: 3px;
-				padding-right: 10px;
 				padding-bottom: 20px;
-				padding-left: 10px;
 			}
 
 			aside#lateral img {
 				width: 100%;
 				height: 100%;
 				margin-top: 10px;
-				padding-right: 10px;
 				padding-bottom: 7px;
-				padding-left: 10px;
 			}
 
 			#padding {
@@ -351,7 +347,7 @@ Overflow - Caixa de texto com rolagem.
 				height: 10%;
 				position: relative;
 				float: right;
-				top: auto;
+				top: 255px;
 				right: 111px;
 			}
 
@@ -416,11 +412,399 @@ Overflow - Caixa de texto com rolagem.
 	
 	/* footer */
 
-} 
+}
 
-/* ------- RESOLUÇÃO MÁXIMA 899px ------- */
 
-@media screen and (max-width: 899px) {
+
+
+
+
+
+/* ------- MIN RESOLUTION 900px AND MAX RESOLUTION 1299px ------- */
+
+@media all and (min-width: 900px) {
+
+	/* header */
+
+		header {
+			width: 100%;
+			height: 100%;
+			padding-bottom: 577px;
+		}
+
+		#logo {
+			width: 50px;
+			height: 50px;
+			float: left;
+			padding-left: 4.7%;
+			padding-top: 4.7%;
+			position: fixed;
+			z-index: 1;
+		}
+
+		#container {
+			width: 100%;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#container-menu {
+			width: 100%;
+			height: 100%;
+		}
+
+		nav#menu {
+			width: 100%;
+			height: 100%;
+		}
+		
+		nav#menu ul {
+			width: 100%;
+			height: 100%;
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: bold;
+			top: 33px;
+			font-family: 'Fonte p';
+			position: absolute;
+		}
+		
+		nav#menu ul li {
+			list-style-type: none;
+			float: right;
+			padding-right: 20px;
+		}
+		
+		nav#menu ul li a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		
+		nav#menu ul li a:hover {
+			background-color: rgb(4, 26, 51);
+			font-weight: bold;
+			color: rgb(86, 187, 226);
+		}
+	
+	/* header */
+
+	/* body */
+
+		body {
+			width: 100%;
+			margin-left: auto;
+		}
+	
+		/* section */
+	
+			section#principal {
+				width: 57%;
+				height: auto;
+				padding-top:77px;
+				margin-left: 5%;
+				margin-right: 5%;
+				float: left;
+			}
+
+			section#principal h1 {
+				font-family: 'Fonte h1';
+				font-size: 20px;
+				color: #333;
+				padding-left:7px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				text-decoration: none;
+				font-weight: bold;
+				border-left-width: thin;	
+				border-left-style: solid;	
+				border-left-color: #999;
+			}
+
+			section#principal h2 {
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
+				font-size:14px;
+				font-weight: bold;
+			}
+
+			section#principal h3 {
+				font-family: 'Fonte h1';
+				color: rgb(0, 0, 0);
+				font-size:16px;
+				font-weight: bold;
+			}
+
+			section#principal p {
+				width: 100%;
+				font-family: 'Fonte p';   
+				font-size: 13px;
+				color:#000;
+				text-align:left;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			section#principal li {
+				width: 100%;
+				font-family: 'Fonte p';
+				color: #000;
+				font-size: 13px;
+			}
+			
+			figure.foto-legenda {
+				position: relative;
+				width: 100%;
+				height: auto;
+				padding-top: 35px;
+				padding-bottom: 15px;
+			}
+			
+			figure.foto-legenda img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			figure.foto-legenda figcaption {
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				position: absolute;
+				top: 0px;
+			}
+			
+			figure.foto-legenda:hover figcaption {
+				opacity: 0.8;
+			}
+			
+			figure.foto-legenda h3 {
+				font-family: 'Fonte h1';
+				text-align: left;
+				padding-left: 30px;
+				margin-top: 35%;
+				color: rgb(255, 255, 255);
+			}
+			
+			figure.foto-legenda p {
+				font-family: 'Fonte p';
+				font-size: 9px;
+				text-align: left;
+				margin-top: 50px;
+				padding-right: 30px;
+				padding-left: 30px;
+				color: rgb(255, 255, 255);
+			}
+
+			figure.foto-legenda a {
+				text-decoration: none;
+				color: #29437a;
+			}
+
+			figure.foto-legenda a:hover {
+				text-decoration: none;
+				color: #407dee;
+			}
+
+			video#filme-sectionprincipal {
+				width: 100%;
+				height: 100%;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			
+			img#section-principal {
+				width: 100%;
+				height: 100%;
+				margin-top: 25px;
+				margin-bottom: 20px;
+			}
+			
+		/* section */
+
+		/* aside */
+
+			#github {
+				width: 10%;
+				height: 10%;
+				position: relative;
+				float: right;
+				top: 100px;
+				right: 5%;
+			}
+
+			aside#lateral {
+				background-color: #ffffff;
+				width: 28%;
+				float: right;
+				margin-top: 177px;
+				margin-left: 0%;
+				margin-right: 5%;
+			}
+	
+			aside#lateral h1 {
+				font-family: 'Fonte h1';
+				font-size: 20px;
+				color: #333;
+				margin-top: 7px;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+			aside#lateral h1 a {
+				text-decoration: none;
+				color: #29437a;
+			}
+
+			aside#lateral h1 a:hover {
+				text-decoration: none;
+				color: #407dee;
+			}
+	
+			aside#lateral h2 {
+				font-family: 'Fonte h1';
+				color: #000;
+				padding-top: 25px;
+				padding-bottom: 20px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+	
+			aside#lateral h3 {
+				font-family: 'Fonte h1';
+				color: rgb(0, 0, 0);
+				font-size: 12px;
+			}
+
+			aside#lateral h3 a {
+				font-family: 'Fonte h1';
+				color: rgb(34, 39, 109);
+				font-size: 22px;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			aside#lateral h3 a:hover {
+				color: rgb(45, 57, 224);
+				text-decoration: none;
+			}
+	
+			aside#lateral p {
+				font-family: 'Fonte p';   
+				font-size: 13px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				color: #5a5858;
+				text-align: left;
+			}
+			
+			video#filme-aside {
+				width: 100%;
+				height: 100%;
+			}
+
+			aside#lateral iframe {
+				width: 100%;
+				height: 100%;
+				margin-top: 3px;
+				padding-bottom: 20px;
+			}
+
+			aside#lateral img {
+				width: 100%;
+				height: 100%;
+				margin-top: 10px;
+				padding-bottom: 7px;
+			}
+
+			#padding {
+				width: 100%;
+				height: 100%;
+				padding-bottom: 77px;
+			}
+
+			#linkedin {
+				width: 10%;
+				height: 10%;
+				position: relative;
+				float: right;
+				top: 33px;
+				right: 5%;
+			}
+
+		/* aside */
+
+	/* body */
+
+	/* footer */
+
+		footer#container {
+			width: 100%;
+			height: 100%;
+			background:#FFFFFF;
+			padding-top: 33px;
+			padding-left: 117px;
+			padding-right: 117px;
+			float: left;
+		}
+
+		#menu {
+			text-decoration: none;
+			font-family: 'Fonte p';
+			font-size: 14px;
+			position: relative;
+			float: right;
+			padding-top: 3px;
+		}
+
+		#menu ul a {
+			color: #1c2741;
+			text-decoration: none;
+			font-family: 'Fonte p';
+			padding: 7px;
+			display: inline-block;
+		}
+
+		#menu ul a:hover {
+			text-decoration: none;
+			color: rgb(86, 187, 226);
+		}
+
+		#redes {
+			padding-top: 7px;
+			position: absolute;
+		}
+
+		#seta {
+			padding-top: 77px;
+			position: relative;
+			padding-bottom: 7px;
+			float: right;
+		}
+
+		#direitos {
+			width: auto;
+			height: auto;
+			color: #5a5858;
+			font-size: 10px;
+			margin-left: 8px;
+			margin-top: 87px;
+		}
+	
+	/* footer */
+
+}
+
+
+
+
+
+
+
+/* ------- MAX RESOLUTION 899px ------- */
+
+@media all and (max-width: 899px) {
 
 	/* header */
 
@@ -434,8 +818,8 @@ Overflow - Caixa de texto com rolagem.
 			width: 50%;
 			height: 50%;
 			float: left;
-			padding-left: 30px;
-			padding-top: 37px;
+			padding-left: 4.7%;
+			padding-top: 4.7%;
 			position: fixed;
 			z-index: 1;
 		}
@@ -504,8 +888,8 @@ Overflow - Caixa de texto com rolagem.
 				width: 100%;
 				height: 100%;
 				padding-top: 77px;
-				padding-right: 33px;
-				padding-left: 33px;
+				padding-left: 5%;
+				padding-right: 5%;
 			}
 
 			section#principal h1 {
@@ -617,7 +1001,7 @@ Overflow - Caixa de texto com rolagem.
 			
 			img#section-principal {
 				width: 100%;
-				height: 330px;
+				height: 100%;
 				margin-top: 25px;
 				margin-bottom: 20px;
 			}
@@ -632,7 +1016,7 @@ Overflow - Caixa de texto com rolagem.
 				position: relative;
 				float: right;
 				bottom: 123px;
-				right: 33px;
+				right: 5%;
 			}
 
 			aside#lateral {
