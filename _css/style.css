@@ -40,21 +40,20 @@ Overflow - Caixa de texto com rolagem.
 
 
 
-/* ------- MIN RESOLUTION 1300px ------- */
+/* MIN RESOLUTION 1300px - LARGE */
 
-@media all and (min-width: 1300px) {
+@media (min-width: 1300px) {
 
-	/* header */
+	/* header Large */
 
 		header {
 			width: 100%;
 			height: 100%;
-			padding-bottom: 577px;
 		}
 
 		#logo {
-			width: 50px;
-			height: 50px;
+			width: 10%;
+			height: 10%;
 			float: left;
 			padding-left: 4.7%;
 			padding-top: 4.7%;
@@ -62,12 +61,21 @@ Overflow - Caixa de texto com rolagem.
 			z-index: 1;
 		}
 
-		#container {
-			width: 100%;
-			height: 100%;
-			margin-left: auto;
-			margin-right: auto;
+		#logo:hover {
+			transition: all .3s ease;
+			cursor: pointer;
 		}
+
+		/* Banner Large */
+
+			#container {
+				width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		/* Banner Large */
 		
 		#container-menu {
 			width: 100%;
@@ -107,22 +115,23 @@ Overflow - Caixa de texto com rolagem.
 			color: rgb(86, 187, 226);
 		}
 	
-	/* header */
+	/* header Large */
 
-	/* body */
+	/* body Large */
 
 		body {
 			width: 100%;
 			margin-left: auto;
 		}
 	
-		/* section */
+		/* section Large */
 	
 			section#principal {
 				width: 57%;
-				height: auto;
-				padding-top:77px;
-				margin-left: 120px;
+				height: 100%;
+				padding-top: 650px;
+				margin-left: 5%;
+				margin-right: 5%;
 				float: left;
 			}
 
@@ -130,7 +139,7 @@ Overflow - Caixa de texto com rolagem.
 				font-family: 'Fonte h1';
 				font-size: 22px;
 				color: #333;
-				padding-left:7px;
+				padding-left: 7px;
 				margin-top: 20px;
 				margin-bottom: 20px;
 				text-decoration: none;
@@ -145,14 +154,14 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				font-size:16px;
+				font-size: 16px;
 				font-weight: bold;
 			}
 
 			section#principal h3 {
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
-				font-size:18px;
+				font-size: 18px;
 				font-weight: bold;
 			}
 
@@ -208,7 +217,7 @@ Overflow - Caixa de texto com rolagem.
 			
 			figure.foto-legenda p {
 				font-family: 'Fonte p';
-				font-size: 9px;
+				font-size: 14px;
 				text-align: left;
 				margin-top: 50px;
 				padding-right: 30px;
@@ -240,25 +249,28 @@ Overflow - Caixa de texto com rolagem.
 				margin-bottom: 20px;
 			}
 			
-		/* section */
+		/* section Large */
 
-		/* aside */
+		/* aside Large */
 
 			#github {
-				width: 10%;
-				height: 10%;
+				width: 82px;
+				height: 98px;
 				position: relative;
 				float: right;
-				top: 160px;
+				top: 735px;
 				right: 5%;
 			}
 
 			aside#lateral {
+				width: 25%;
+				height: 100%;
 				background-color: #ffffff;
-				width: 27%;
 				float: right;
-				margin-top: 190px;
-				margin-right: 100px;
+				margin-top: 764px;
+				margin-left: 3%;
+				margin-right: 5%;
+				border-top: solid 1px #c7c7c7;
 			}
 	
 			aside#lateral h1 {
@@ -285,26 +297,26 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				font-size:16px;
+				font-size: 16px;
 				font-weight: bold;
 			}
 	
 			aside#lateral h3 {
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
-				font-size: 12px;
+				font-size: 16px;
 			}
 
 			aside#lateral h3 a {
 				font-family: 'Fonte h1';
-				color: rgb(34, 39, 109);
-				font-size: 22px;
+				color: rgb(31, 36, 121);
+				font-size: 20px;
 				font-weight: bold;
 				text-decoration: none;
 			}
 
 			aside#lateral h3 a:hover {
-				color: rgb(45, 57, 224);
+				color: rgb(48, 161, 226);
 				text-decoration: none;
 			}
 	
@@ -336,81 +348,90 @@ Overflow - Caixa de texto com rolagem.
 				padding-bottom: 7px;
 			}
 
-			#padding {
-				width: 100%;
-				height: 100%;
-				padding-bottom: 77px;
-			}
-
 			#linkedin {
-				width: 10%;
-				height: 10%;
+				width: 82px;
+				height: 98px;
 				position: relative;
 				float: right;
-				top: 255px;
-				right: 111px;
+				top: 166px;
+				right: 5%;
 			}
 
-		/* aside */
+		/* aside Large */
 
-	/* body */
+	/* body Large */
 
-	/* footer */
+	/* footer Large */
 
 		footer#container {
 			width: 100%;
 			height: 100%;
 			background:#FFFFFF;
-			padding-top: 33px;
-			padding-left: 117px;
-			padding-right: 117px;
 			float: left;
+			border-top: solid 1px #c7c7c7;
 		}
 
-		#menu {
-			text-decoration: none;
+		#container2 {
+			width: 100%;
+			height: 100%;
+			background: rgb(255, 255, 255);
+			padding-top: 15px;
+			padding-right: 5%;
+			padding-bottom: 88px;
+			padding-left: 5%;
+		}
+
+		#container2 #menu {
+			width: 100%;
+			height: 100%;
 			font-family: 'Fonte p';
-			font-size: 14px;
+			font-size: 16px;
 			position: relative;
-			float: right;
-			padding-top: 3px;
 		}
 
-		#menu ul a {
-			color: #1c2741;
+		#container2 #menu ul a {
+			color: #10285f;
 			text-decoration: none;
 			font-family: 'Fonte p';
 			padding: 7px;
 			display: inline-block;
 		}
 
-		#menu ul a:hover {
+		#container2 #menu ul a:hover {
 			text-decoration: none;
 			color: rgb(86, 187, 226);
 		}
 
-		#redes {
-			padding-top: 7px;
+		#container2 #redes {
 			position: absolute;
+			padding-top: 9px;
+			padding-bottom: 10px;
 		}
 
-		#seta {
-			padding-top: 77px;
+		.back-to-top {
+			position: fixed;
+			float: right;
+			display: block;
+			right: 95px;
+			bottom: 13px;
+			opacity: 0.2;
+		}
+
+		.back-to-top:hover {
+			transition: all .3s ease;
+			cursor: pointer;
+			opacity: 1;
+		}
+
+		#container2 #direitos {
 			position: relative;
-			padding-bottom: 7px;
+			color: #5a5858;
+			top: 14px;
+			font-size: 11px;
 			float: right;
 		}
-
-		#direitos {
-			width: auto;
-			height: auto;
-			color: #5a5858;
-			font-size: 10px;
-			margin-left: 8px;
-			margin-top: 87px;
-		}
 	
-	/* footer */
+	/* footer Large */
 
 }
 
@@ -420,11 +441,11 @@ Overflow - Caixa de texto com rolagem.
 
 
 
-/* ------- MIN RESOLUTION 900px AND MAX RESOLUTION 1299px ------- */
+/* MIN RESOLUTION 900px AND MAX RESOLUTION 1299px - MEDIUM */
 
-@media all and (min-width: 900px) {
+@media (min-width: 900px) and (max-width: 1299px) {
 
-	/* header */
+	/* header Medium */
 
 		header {
 			width: 100%;
@@ -433,8 +454,8 @@ Overflow - Caixa de texto com rolagem.
 		}
 
 		#logo {
-			width: 50px;
-			height: 50px;
+			width: 10%;
+			height: 10%;
 			float: left;
 			padding-left: 4.7%;
 			padding-top: 4.7%;
@@ -442,12 +463,21 @@ Overflow - Caixa de texto com rolagem.
 			z-index: 1;
 		}
 
-		#container {
-			width: 100%;
-			height: 100%;
-			margin-left: auto;
-			margin-right: auto;
+		#logo:hover {
+			transition: all .3s ease;
+			cursor: pointer;
 		}
+
+		/* Banner Medium */
+
+			#container {
+				width: 100%;
+				height: 555px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		/* Banner Medium */
 		
 		#container-menu {
 			width: 100%;
@@ -487,21 +517,20 @@ Overflow - Caixa de texto com rolagem.
 			color: rgb(86, 187, 226);
 		}
 	
-	/* header */
+	/* header Medium */
 
-	/* body */
+	/* body Medium */
 
 		body {
 			width: 100%;
 			margin-left: auto;
 		}
 	
-		/* section */
+		/* section Medium */
 	
 			section#principal {
-				width: 57%;
-				height: auto;
-				padding-top:77px;
+				width: 55%;
+				height: 100%;
 				margin-left: 5%;
 				margin-right: 5%;
 				float: left;
@@ -511,8 +540,7 @@ Overflow - Caixa de texto com rolagem.
 				font-family: 'Fonte h1';
 				font-size: 20px;
 				color: #333;
-				padding-left:7px;
-				margin-top: 20px;
+				padding-left: 7px;
 				margin-bottom: 20px;
 				text-decoration: none;
 				font-weight: bold;
@@ -526,14 +554,14 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				font-size:14px;
+				font-size: 14px;
 				font-weight: bold;
 			}
 
 			section#principal h3 {
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
-				font-size:16px;
+				font-size: 16px;
 				font-weight: bold;
 			}
 
@@ -589,7 +617,7 @@ Overflow - Caixa de texto com rolagem.
 			
 			figure.foto-legenda p {
 				font-family: 'Fonte p';
-				font-size: 9px;
+				font-size: 13px;
 				text-align: left;
 				margin-top: 50px;
 				padding-right: 30px;
@@ -621,26 +649,28 @@ Overflow - Caixa de texto com rolagem.
 				margin-bottom: 20px;
 			}
 			
-		/* section */
+		/* section Medium */
 
-		/* aside */
+		/* aside Medium */
 
 			#github {
-				width: 10%;
-				height: 10%;
+				width: 55px;
+				height: 71px;
 				position: relative;
 				float: right;
-				top: 100px;
+				top: 77px;
 				right: 5%;
 			}
 
 			aside#lateral {
-				background-color: #ffffff;
 				width: 28%;
+				height: 100%;
+				background-color: #ffffff;
 				float: right;
-				margin-top: 177px;
+				margin-top: 100px;
 				margin-left: 0%;
 				margin-right: 5%;
+				border-top: solid 1px #c7c7c7;
 			}
 	
 			aside#lateral h1 {
@@ -674,19 +704,19 @@ Overflow - Caixa de texto com rolagem.
 			aside#lateral h3 {
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
-				font-size: 12px;
+				font-size: 14px;
 			}
 
 			aside#lateral h3 a {
 				font-family: 'Fonte h1';
-				color: rgb(34, 39, 109);
-				font-size: 22px;
+				color: rgb(31, 36, 121);
+				font-size: 18px;
 				font-weight: bold;
 				text-decoration: none;
 			}
 
 			aside#lateral h3 a:hover {
-				color: rgb(45, 57, 224);
+				color: rgb(48, 161, 226);
 				text-decoration: none;
 			}
 	
@@ -718,81 +748,91 @@ Overflow - Caixa de texto com rolagem.
 				padding-bottom: 7px;
 			}
 
-			#padding {
-				width: 100%;
-				height: 100%;
-				padding-bottom: 77px;
-			}
-
 			#linkedin {
-				width: 10%;
-				height: 10%;
+				width: 55px;
+				height: 71px;
 				position: relative;
 				float: right;
-				top: 33px;
+				top: 300px;
 				right: 5%;
 			}
 
-		/* aside */
+		/* aside Medium */
 
-	/* body */
+	/* body Medium */
 
-	/* footer */
+	/* footer Medium */
 
-		footer#container {
-			width: 100%;
-			height: 100%;
-			background:#FFFFFF;
-			padding-top: 33px;
-			padding-left: 117px;
-			padding-right: 117px;
-			float: left;
-		}
+	footer#container {
+		width: 100%;
+		height: 100%;
+		background:#FFFFFF;
+		float: left;
+		border-top: solid 1px #c7c7c7;
+	}
 
-		#menu {
-			text-decoration: none;
-			font-family: 'Fonte p';
-			font-size: 14px;
-			position: relative;
-			float: right;
-			padding-top: 3px;
-		}
+	#container2 {
+		width: 100%;
+		height: 100%;
+		background: rgb(255, 255, 255);
+		padding-top: 15px;
+		padding-right: 5%;
+		padding-bottom: 88px;
+		padding-left: 5%;
+	}
 
-		#menu ul a {
-			color: #1c2741;
-			text-decoration: none;
-			font-family: 'Fonte p';
-			padding: 7px;
-			display: inline-block;
-		}
+	#container2 #menu {
+		width: 100%;
+		height: 100%;
+		font-family: 'Fonte p';
+		font-size: 14px;
+		position: relative;
+	}
 
-		#menu ul a:hover {
-			text-decoration: none;
-			color: rgb(86, 187, 226);
-		}
+	#container2 #menu ul a {
+		color: #10285f;
+		text-decoration: none;
+		font-family: 'Fonte p';
+		padding: 7px;
+		display: inline-block;
+	}
 
-		#redes {
-			padding-top: 7px;
-			position: absolute;
-		}
+	#container2 #menu ul a:hover {
+		text-decoration: none;
+		color: rgb(86, 187, 226);
+	}
 
-		#seta {
-			padding-top: 77px;
-			position: relative;
-			padding-bottom: 7px;
-			float: right;
-		}
+	#container2 #redes {
+		position: absolute;
+		padding-top: 90px;
+		padding-bottom: 10px;
+	}
 
-		#direitos {
-			width: auto;
-			height: auto;
-			color: #5a5858;
-			font-size: 10px;
-			margin-left: 8px;
-			margin-top: 87px;
-		}
+	.back-to-top {
+		position: fixed;	
+		float: right;
+		display: block;
+		right: 48px;
+		bottom: 13px;
+		margin-top: 90px;
+		opacity: 0.4;
+	}
+
+	.back-to-top:hover {
+		transition: all .3s ease;
+		cursor: pointer;
+		opacity: 1;
+	}
+
+	#container2 #direitos {
+		position: relative;
+		color: #5a5858;
+		top: 13px;
+		font-size: 10px;
+		float: right;
+	}
 	
-	/* footer */
+	/* footer Medium */
 
 }
 
@@ -802,26 +842,31 @@ Overflow - Caixa de texto com rolagem.
 
 
 
-/* ------- MAX RESOLUTION 899px ------- */
+/* MAX RESOLUTION 899px - SMALL */
 
-@media all and (max-width: 899px) {
+@media (max-width: 899px) {
 
-	/* header */
+	/* header Small */
 
 		header {
 			width: 100%;
 			height: 100%;
-			padding-bottom: 477px;
+			padding-bottom: 365px;
 		}
 
 		#logo {
-			width: 50%;
-			height: 50%;
+			width: 2%;
+			height: 2%;
 			float: left;
-			padding-left: 4.7%;
-			padding-top: 4.7%;
+			padding-left: 5%;
+			padding-top: 10%;
 			position: fixed;
 			z-index: 1;
+		}
+
+		#logo:hover {
+			transition: all .3s ease;
+			cursor: pointer;
 		}
 
 		#container {
@@ -852,12 +897,12 @@ Overflow - Caixa de texto com rolagem.
 			font-weight: bold;
 			top: 3px;
 			font-family: 'Fonte p';
-			position: absolute;
+			position: relative;
 		}
 		
 		nav#menu ul li {
 			list-style-type: none;
-			display: block;
+			display: inherit;
 			float: right;
 			padding: 5px;
 		}
@@ -873,31 +918,31 @@ Overflow - Caixa de texto com rolagem.
 			color: rgb(86, 187, 226);
 		}
 
-	/* header */
+	/* header Small */
 
-	/* body */
+	/* body Small */
 
 		body {
 			width: 100%;
 			margin-left: auto;
 		}
 
-		/* section */
+		/* section Small */
 
 			section#principal {
 				width: 100%;
 				height: 100%;
-				padding-top: 77px;
+				padding-top: 55px;
 				padding-left: 5%;
 				padding-right: 5%;
 			}
 
 			section#principal h1 {
 				font-family: 'Fonte h1';
-				font-size: 20px;
+				font-size: 18px;
 				color: #333;
-				padding-left:7px;
-				margin-top: 20px;
+				padding-left: 7px;
+				margin-top: 35px;
 				margin-bottom: 20px;
 				text-decoration: none;
 				font-weight: bold;
@@ -911,21 +956,21 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				font-size:14px;
+				font-size: 12px;
 				font-weight: bold;
 			}
 
 			section#principal h3 {
 				font-family: 'Fonte h1';
 				color: rgb(0, 0, 0);
-				font-size:16px;
+				font-size: 14px;
 				font-weight: bold;
 			}
 
 			section#principal p {
 				width: 100%;
 				font-family: 'Fonte p';   
-				font-size: 13px;
+				font-size: 12px;
 				color:#000;
 				text-align:left;
 				margin-top: 10px;
@@ -974,7 +1019,7 @@ Overflow - Caixa de texto com rolagem.
 			
 			figure.foto-legenda p {
 				font-family: 'Fonte p';
-				font-size: 9px;
+				font-size: 12px;
 				text-align: left;
 				margin-top: 50px;
 				padding-right: 30px;
@@ -1006,30 +1051,31 @@ Overflow - Caixa de texto com rolagem.
 				margin-bottom: 20px;
 			}
 			
-		/* section */
+		/* section Small */
 
-		/* aside */
+		/* aside Small */
 
 			#github {
-				width: 17%;
-				height: 17%;
+				width: 44px;
+				height: 60px;
 				position: relative;
+				bottom: 22px;
 				float: right;
-				bottom: 123px;
 				right: 5%;
 			}
 
 			aside#lateral {
-				background-color: #ffffff;
 				width: 100%;
-				margin-top: 33px;
-				padding-right: 33px;
-				padding-left: 33px;
+				height: 100%;
+				background-color: #ffffff;
+				padding-right: 5%;
+				padding-left: 5%;
+				border-top: solid 1px #c7c7c7;
 			}
 
 			aside#lateral h1 {
 				font-family: 'Fonte h1';
-				font-size: 20px;
+				font-size: 18px;
 				color: #333;
 				margin-top: 7px;
 				text-decoration: none;
@@ -1051,7 +1097,7 @@ Overflow - Caixa de texto com rolagem.
 				color: #000;
 				padding-top: 25px;
 				padding-bottom: 20px;
-				font-size: 14px;
+				font-size: 12px;
 				font-weight: bold;
 			}
 
@@ -1063,20 +1109,20 @@ Overflow - Caixa de texto com rolagem.
 
 			aside#lateral h3 a {
 				font-family: 'Fonte h1';
-				color: rgb(34, 39, 109);
-				font-size: 20px;
+				color: rgb(31, 36, 121);
+				font-size: 16px;
 				font-weight: bold;
 				text-decoration: none;
 			}
 
 			aside#lateral h3 a:hover {
-				color: rgb(45, 57, 224);
+				color: rgb(48, 161, 226);
 				text-decoration: none;
 			}
 
 			aside#lateral p {
-				font-family: 'Fonte p';   
-				font-size: 13px;
+				font-family: 'Fonte p';
+				font-size: 12px;
 				margin-top: 3px;
 				margin-bottom: 3px;
 				color: #5a5858;
@@ -1102,86 +1148,86 @@ Overflow - Caixa de texto com rolagem.
 				padding-bottom: 7px;
 			}
 
-			#padding {
-				width: 100%;
-				height: 100%;
-				padding-bottom: 33px;
-			}
-
 			#linkedin {
-				width: 17%;
-				height: 17%;
+				width: 44px;
+				height: 60px;
 				position: relative;
 				float: right;
-				top: auto;
-				right: 33px;
+				margin-top: 33px;
+				right: 5%;
 			}
 
-		/* aside */
+		/* aside Small */
 
-	/* body */
+	/* body Small */
 
-	/* footer */
+	/* footer Small */
 
-		footer#container {
-			width: 100%;
-			height: 50%;
-			padding-top: 22px;
-			padding-left: 33px;
-			padding-right: 33px;
-		}
+	footer#container {
+		width: 100%;
+		height: 100%;
+		background:#FFFFFF;
+		float: left;
+		margin-top: 25px;
+		border-top: solid 1px #c7c7c7;
+	}
 
-		#menu {
-			width: 100%;
-			height: 100%;
-			text-decoration: none;
-			font-family: 'Fonte p';
-			font-size: 11px;
-			position: relative;
-			padding-top: 7px;
-		}
+	#container2 {
+		width: 100%;
+		height: 100%;
+		background: rgb(255, 255, 255);
+	}
 
-		#menu ul a {
-			color: #1c2741;
-			text-decoration: none;
-			font-family: 'Fonte p';
-			padding: 3px;
-			display: inline-block;
-		}
+	#container2 #menu {
+		width: 100%;
+		height: 100%;
+		font-family: 'Fonte p';
+		font-size: 10px;
+		position: relative;
+	}
 
-		#menu ul a:hover {
-			text-decoration: none;
-			color: rgb(30, 134, 175);
-		}
+	#container2 #menu ul a {
+		display: inherit;
+		color: #10285f;
+		text-decoration: none;
+		font-family: 'Fonte p';
+		padding: 7px;
+	}
 
-		#redes {
-			width: 50%;
-			height: auto;
-			padding-top: 40px;
-			padding-bottom: 0px;
-		}
+	#container2 #menu ul a:hover {
+		text-decoration: none;
+		color: rgb(86, 187, 226);
+	}
 
-		#redes p {
-			font-family: 'Fonte p';
-			font-size: 13px;
-			color: rgb(30, 134, 175);
-			padding-left: 5px;
-		}
+	#container2 #redes {
+		position: absolute;
+		padding-top: 30px;
+	}
 
-		#seta {
-			position: relative;
-			padding-top: 7px;
-			float: right;
-		}
+	.back-to-top {
+		position: fixed;
+		float: right;
+		display: block;
+		right: 22px;
+		bottom: 13px;
+		margin-top: 30px;
+		opacity: 0.3;
+	}
 
-		#direitos {
-			width: auto;
-			height: auto;
-			color: #5a5858;
-			font-size: 10px;
-			float: right;
-		}
+	.back-to-top:hover {
+		transition: all .3s ease;
+		cursor: pointer;
+		opacity: 1;
+	}
 
-	/* footer */
+	#container2 #direitos {
+		width: 100px;
+		position: relative;
+		color: #5a5858;
+		font-size: 9px;
+		float: right;
+	}
+
+	/* footer Small */
 
 }
