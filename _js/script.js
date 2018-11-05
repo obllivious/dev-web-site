@@ -18,8 +18,6 @@ $(function() {
 });
 
 $(function() {
-    $('#logo').hide();
-    
     $(window).scroll(function() {
         if($(this).scrollTop() > 100) {
             $('#logo').fadeOut();
